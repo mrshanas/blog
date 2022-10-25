@@ -9,7 +9,7 @@ const projectsData = [
     title: 'Rest Countries',
     description: `This a solution to a frontend mentor challenge that displays countries and their data in the world`,
     imgSrc: '/static/images/projects/rest-contries.png',
-    href: 'https://rest-countries-vtkm.com',
+    href: 'https://rest-countries-vtkm.vercel.app',
   },
 ]
 
