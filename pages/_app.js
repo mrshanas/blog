@@ -6,6 +6,7 @@ import '@fontsource/inter/variable-full.css'
 
 import { ThemeProvider } from 'next-themes'
 import Head from 'next/head'
+import NextProgress from 'nextjs-progressbar'
 
 import siteMetadata from '@/data/siteMetadata'
 import Analytics from '@/components/analytics'
@@ -18,6 +19,7 @@ const isSocket = process.env.SOCKET
 export default function App({ Component, pageProps }) {
   return (
     <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme}>
+      <NextProgress color="#008080" options={{ showSpinner: false }} />
       <Head>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
       </Head>
