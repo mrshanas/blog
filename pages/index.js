@@ -19,9 +19,22 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
+      <div className="space-y-4">
+        <h1 className="text-3xl font-bold md:text-4xl">Hi 👋, You can call me Shanas</h1>
+        <p className="leading-6">
+          I'm a frontend / backend developer, an open source enthusiast, blog writer, tech nerd who
+          loves making cool stuffs with technology , I mostly work on projects as I have graduated
+          from <span className="cursor-pointer font-semibold text-primary-300">tutorial hell</span>{' '}
+          but on my free time I spend time with my family and friends, watch movies, play video
+          games and write blog articles
+        </p>
+        <Link href="/about">
+          <a className="text-primary-500">More about me &rarr;</a>
+        </Link>
+      </div>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
             Latest
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
