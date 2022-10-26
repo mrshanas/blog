@@ -23,7 +23,7 @@ canonicalUrl:
 
 ## Intro
 
-[NextJs](https://nextjs.org) has a released a new version and there are some major changes that you can read in their official [website](https://nextjs.org/13), but I'm gonna try and wrap my head around the `app` directory because layouts has been alittle pain to me in NextJs
+[NextJs](https://nextjs.org) has a released a new version and there are some major changes that you can read in their official [website](https://nextjs.org/13), but I'm gonna try and wrap my head around the `app` directory because layouts has been a little pain to me in NextJs
 
 > By default the `app` directory in Next 13 uses React Server Components(RSC), we won't be discussing about it but you can read more about it in their [docs](https://nextjs.org/docs/advanced-features/react-18/server-components)
 
