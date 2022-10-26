@@ -11,6 +11,12 @@ const projectsData = [
     imgSrc: '/static/images/projects/rest-contries.png',
     href: 'https://rest-countries-vtkm.vercel.app',
   },
+  {
+    title: 'delivR',
+    description: 'Cross platform food order mobile app made with React Native and Expo ',
+    imgSrc: '/static/images/projects/delivR.png',
+    href: 'https://github.com/mrshanas/delivR',
+  },
 ]
 
 export default projectsData
